@@ -44,5 +44,5 @@ All the recommended files and directories should look like the following structu
         └── main.handlebars
 ```
 
-### Deplpyed webpage
+### Deployed webpage
 Heroku app link is [here!](https://limitless-hamlet-27936.herokuapp.com/)
