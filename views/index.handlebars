@@ -1,7 +1,7 @@
 <div class="conatainer">
-        <h1>Eat-Da-Burger!</h1>
+    <h1>Eat-Da-Burger!</h1>
 
-        <img src="./assets/img/burger4.png" alt="burger" id="image-center">
+    <img src="./assets/img/burger4.png" alt="burger" id="image-center">
 </div>
 
 <div class=container>
@@ -11,7 +11,9 @@
             <ul>
                 {{#each burgers}}
                 {{#unless ate}}
-                {{> burgers/burger-block eat=true}}
+
+                    {{> burgers/burger-block eat=true}}
+                   
                 {{/unless}}
                 {{/each}}
             </ul>
@@ -20,7 +22,7 @@
     </div>
 
     <div class="card col-sm-6">
-       <div class="card-body">
+        <div class="card-body">
             <h3 class="card-title">Burgers that I ate!</h3>
             <ul>
                 {{#each burgers}}
@@ -29,7 +31,7 @@
                 {{/if}}
                 {{/each}}
             </ul>
-            </div>
+        </div>
     </div>
 </div>
 
